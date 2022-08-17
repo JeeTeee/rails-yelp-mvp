@@ -1,15 +1,50 @@
-/*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
- *
- * Any CSS (and SCSS, if configured) file within this directory, lib/assets/stylesheets, or any plugin's
- * vendor/assets/stylesheets directory can be referenced here using a relative path.
- *
- * You're free to add application-wide styles to this file and they'll appear at the bottom of the
- * compiled file so the styles you add here take precedence over styles defined in any other CSS
- * files in this directory. Styles in this file should be added after the last require_* statement.
- * It is generally better to create a new file per style scope.
- *
- *= require_tree .
- *= require_self
- */
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;500;900&display=swap");
+
+body {
+  font-family: 'Lexend Deca', sans-serif !important;
+}
+
+.container {
+  width:1000px;
+  margin: 0 auto;
+}
+
+
+.fa-star {
+  color: rgb(240, 216, 0);
+}
+
+.restaurant-card {
+  background: linear-gradient(90deg, rgba(0,0,0,0.4009978991596639) 0%, rgba(0,0,0,0.4) 100%), url("jakub-kapusnak-4f4YZfDMLeU-unsplash.jpg");
+  padding: 20px 20px;
+  border-radius: 4px;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: block;
+  margin: 30px auto;
+  align-items: center;
+  justify-items: center;
+}
+
+.new-review {
+  background-color: rgba(233, 232, 216, 0.616);
+  padding: 10px 16px;
+  margin: 30px auto;
+  border-radius: 4px;
+  color: rgba(0, 0, 0, 0.651);
+  width: 500px;
+}
+
+.review-content {
+  margin: 16px 0 16px 0;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.img {
+  width: 300px;
+  height: 300px;
+}
